@@ -18,7 +18,7 @@ section#celular{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    background-image: url('../pacote-d013/imagens/frame-iphone.png');
+    background-image: url('/imagens/frame-iphone.png');
     width: 311px;
     height: 627px;
 }
