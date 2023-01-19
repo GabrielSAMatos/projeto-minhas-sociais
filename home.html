@@ -12,13 +12,13 @@
 
 <body>
     <section id="sociais">
-            <ul>
-                <li><img src="pacote-d013/imagens/logo-github.jpg" alt="Github"></li>
-                <li><img src="pacote-d013/imagens/logo" alt=""></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <a href="https://contate.me/gabrielsamatos" target="_blank"><img src="pacote-d013/imagens/logo-whatsapp.png" alt="Whatsapp"></a>
+        <a href="github.html"><img src="pacote-d013/imagens/logo-github.jpg" alt="Github"></a>
+        <a href="linkedin.html"><img src="pacote-d013/imagens/logo-linkedin.png" alt="Linkedin"></a>
+        <a href="instagram.html"><img src="pacote-d013/imagens/logo-instagram.jpg" alt="Instagram"></a>    
+        <a href="https://www.youtube.com/@gatobrielrs6537/featured" target="_blank"><img class="linha2" src="pacote-d013/imagens/logo-youtube.jpg" alt="Youtube"></a>
+        <a href="twitter.html"><img class="linha2" src="pacote-d013/imagens/logo-twitter.jpg" alt="Twitter"></a>
+        <a href="facebook.html"><img class="linha2" src="pacote-d013/imagens/logo-facebook.jpg" alt="Facebook"></a>
     </section>
 </body>
 
@@ -31,10 +31,33 @@
     }
 
     body{
-        width: 100vw;
-        height: 100vh;
         background: url(pacote-d013/imagens/tela-home.png) no-repeat top center;
         background-size: cover;
     }
 
+    ul{
+        display: flex;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    section#sociais img{
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        margin-top: 35px;
+        margin-left: 15px;
+        
+        border: 1px solid rgba(0, 0, 0, 0.253);
+        box-sizing: border-box;
+    }
+
+    section#sociais img:hover{
+        transform: translate( -3px, -3px);
+        border: 2px solid black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+        transition: transform 1s, border 0.1s;
+    }
 </style>
